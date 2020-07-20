@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <div onkeyup="checkit()" class="box">
+            <h1 id="logo">login</h1>
+            <input type="text" placeholder="username"><br><br>
+            <input type="text" id="val" placeholder="password"><br>
+            <button onclick="checkit()" id="lis" class="sub">go</button>
+
+            <p id="wrt" style="color: red;"></p>
+
+            <p id="stgh"></p>
+
+            <progress id="pbar" value="0" max="100" style="width: 100%;"></progress>
+            <ul style="color: #ff0000;">
+                <li id="upper" style="color: white;">
+                    atleast one uppercase letters<br>
+                </li>
+                <li id="lower" style="color: white;">
+                    atleast one lowercase latter<br>
+                </li>
+                <li id="int" style="color: white;">
+                    atleast one integer number<br>
+                </li>
+                <li id="min8" style="color: white;">
+                    min 8 character
+                </li>
+            </ul>
+
+        </div>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>
